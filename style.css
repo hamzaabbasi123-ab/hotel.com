@@ -1,0 +1,152 @@
+/* General styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Header styles */
+header {
+    background: #333;
+    color: #f6f0f0;
+    padding: 1em 0;
+}
+
+header .container {
+    text-align: center;
+}
+
+header h1 {
+    margin: 0 0 1em 0;
+}
+
+header nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 1em;
+    justify-content: center;
+}
+
+header nav ul li {
+    margin: 0;
+}
+
+header nav ul li a {
+    color: #fff;
+    text-decoration: underline;
+}
+
+/* Hero section styles */
+.hero {
+    position: relative;
+    text-align: center;
+    padding: 4em 0;
+    overflow: hidden;
+}
+
+ .bg {
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    height: 120%;
+    z-index: -1;
+    filter: brightness(2);
+    filter: contrast(1.75);
+    filter: hue-rotate(15);
+    filter: saturate(2);
+    opacity: 0.6;
+}
+
+.hero .hero-text {
+    position: relative;
+    z-index: 1;
+    max-width: 700px;
+    margin: 0 auto;
+    color: #000000;
+}
+
+.hero .btn {
+    background: #eae0e0;
+    color: #000000;
+    padding: 0.5em 1em;
+    text-decoration: none;
+}
+
+/* Services section styles */
+.services .container, .rooms .container, .contact .container, .booking .container, .login .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 4em 2em;
+    color: #080808;
+    font-size:large;
+    font-weight: 700;
+    text-align: center;
+    font-style: oblique;
+     text-decoration:underline ;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+.services h2, .rooms h2, .contact h2, .booking h2, .login h2 {
+    text-align: center;
+    margin-bottom: 1em;
+    color: rgb(3, 3, 3);
+}
+
+.service, .room {
+    margin-bottom: 1em;
+}
+
+/* Contact section styles */
+.contact p {
+    text-align: center;
+}
+
+/* Booking form styles */
+form {
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: left;
+   font-weight: bold;
+   font-style: italic;
+
+}
+
+label {
+    display: block;
+    margin-bottom: 0.5em;
+}
+
+input, select, button {
+    width: 100%;
+    padding: 0.75em;
+    margin-bottom: 1em;
+    text-decoration: underline;
+}
+
+button {
+    background: #333;
+    color: #fff;
+    border: #000000;
+    cursor: pointer;
+}
+
+/* Footer styles */
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1em 0;
+}
